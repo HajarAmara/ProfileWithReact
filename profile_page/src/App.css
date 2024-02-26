@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Hanalei Fill', cursive;
+}
+
+.maincard {
+  align-items: center;
+  background-color: transparent;
+}
+
+.middlecard {
+  color: black;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.borderDiv {
+  background-color: rgba(151, 213, 238, 0.703);
+  color: navy;
+  border-radius: 10px;
+  border: 5px double navy;
+  display: block;
+  word-spacing: 3px;
+  font-size: medium;
+  font-weight: bolder;
+  min-height: 50vh;
+  min-width: 100vh;
+  margin-left: 0px;
+  margin-right: 15%;
+}
+
+.innerDivBorder {
+  font-style: normal;
+  font-family: 'Hanalei Fill', cursive;
+  margin-left: 1%;
+  font-size: medium;
+}
+
+.nestedInnerBorder {
+  margin-left: 10%;
+  word-spacing: 3px;
+  font-size: smaller;
+}
+
+.middlecard button {
+  background-color: transparent;
+  border: 5px double rgb(7, 7, 110);
+  background-color: antiquewhite;
+  color: navy;
+  border-radius: 10px;
+  font-size: large;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 0;
+  cursor: pointer;
+}
+
+.middlecard button:hover {
+  background-color: transparent;
+  border: 5px outset rgba(229, 229, 220, 0.9);
+  border-radius: 10px;
+  font-size: larger;
+  justify-content: space-between;
+  position: sticky;
+  mask-position: center;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 0;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.topsp {
+  padding-top: 15px;
+}
+
+.btnsp {
+  padding-bottom: 20px;
+}
+
+.aLinks {
+  align-items: center;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 40%;
+  justify-content: space-around;
+}
+
+.downloadLink {
+  color: beige;
+  font-size: small;
+  font-style: oblique;
+  margin-left: 30%;
+  margin-bottom: 5%;
+}
+
+
+.row {
+  display: flex;
+}
+
+.app {
+  display: inline-flex;
+  flex-direction: row;
+  background-color: antiquewhite;
+}
+
+.expe {
+  border: 2px solid beige;
+  margin: 5px;
+  height: auto;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.bold {
+  font-weight: bold;
+  color: black;
+  width: 50%;
+  display: grid;
+  font-size: large;
+  text-align: justify;
+  border-radius: 1px;
+}
+
+.nonbold {
+  font-weight: lighter;
+  font-size: small;
+}
+
+.linkProj {
+  font-weight: lighter;
+  font-size: medium;
+  color: black;
+}
+
+.leftBar {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 5%;
+  margin-top: 15px;
+  margin-bottom: 20px;
+
+}
+
+.rightside {
+  width: 100%;
+  flex: 70%;
+  padding: 10px;
+}
+
+.personalDetails {
+  color: rgb(190, 96, 96);
+  font-size: x-small;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.rightBar {
+  flex-direction: row;
+  margin-right: 5px;
+  border: 2px solid beige;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img1 {
+  border: 10px solid transparent;
+  border-radius: 150px;
+  width: 70%;
+  margin-left: 50px;
+}
+
+.spaceleft {
+  margin-left: 15px;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.mcol {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex: 0 0 50%;
+}
+
+.lcol {
+  flex: 0 0 20%;
+  padding: 10px;
+  background-color: blanchedalmond;
+  border-radius: 20px;
+  border: 3px double navy;
+  margin-right: 10%;
+}
+
+.rcol {
+  flex: 0 0 10%;
+  justify-content: space-around;
+  align-items: center;
+  font-size: xx-large;
+}
+
+.linksp {
+  margin-top: 50%;
+}
+
+.aLinks a {
+  padding: 20px;
+  margin-top: 30px;
+  color: navy;
+  justify-content: space-evenly;
+  font-size: xx-large;
+  display: flex;
+}
+
+.aLinks a:hover {
+  border-radius: 30px;
+  border: 5px double blanchedalmond;
+  font-weight: bolder;
+  padding: 20px;
+  margin-top: 30px;
+  color: blanchedalmond;
+  background-color: navy;
+  justify-content: space-evenly;
+  font-size: x-large;
+}
+
+.title-txt-sp {
+  font-size: 28px;
+  font-weight: bolder;
+  color: darkblue;
+}
+
+.name-title {
+  font-size: 22px;
+  text-align: center;
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(9, 157, 187);
+}
+
+.items-txt {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: cursive, Times, serif;
+  color: navy;
+  text-align: center;
+}
+
+.ptitle {
+  font-size: medium;
+  color: black;
+}
+
+
+.sentenceLetter {
+  font-family: 'Waiting for the Sunrise', cursive;
+  font-size: 20px;
+  margin: 10px 50px;
+  letter-spacing: 6px;
+  font-weight: bold;
+  color: rgba(38, 219, 255, 0.679);
+  background-color: rgba(6, 6, 148, 0.903);
+  text-align: center;
+  padding: 5px;
+  animation-direction: alternate;
+}
