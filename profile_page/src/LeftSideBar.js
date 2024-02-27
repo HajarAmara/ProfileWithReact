@@ -40,13 +40,11 @@ function Left() {
     return (
         <div>
             <div className="sentenceLetter">
-                <Typewriter text="HELLO , I'M HAJAR" />
-                <Typewriter text="Welcome to my profile" />
+                <Typewriter text="  Hello, I'm HAJAR, Welcome to my profile" loop />
             </div>
             <div className="leftBar">
                 <div className="lcol ">
-                    <h3 className="name-title">I am Hajar Amara</h3>
-
+                    <h3 className="name-title">Hajar Amara</h3>
                     <Image1 /></div>
                 <div className="mcol">
                     <MiddleRight />

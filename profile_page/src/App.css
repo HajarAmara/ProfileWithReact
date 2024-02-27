@@ -184,6 +184,7 @@
   border-radius: 150px;
   width: 70%;
   margin-left: 50px;
+  margin-top: 30px;
 }
 
 .spaceleft {
@@ -276,8 +277,7 @@
   margin: 10px 50px;
   letter-spacing: 6px;
   font-weight: bold;
-  color: rgba(38, 219, 255, 0.679);
-  background-color: rgba(6, 6, 148, 0.903);
+  color: navy;
   text-align: center;
   padding: 5px;
   animation-direction: alternate;
