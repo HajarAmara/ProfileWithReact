@@ -29,21 +29,22 @@ class About extends Component {
             <div>
                 <h3 className="btnsp title-txt-sp">About</h3>
                 <div className='topsp borderDiv'>
-                    <p className="innerDivBorder">
-                        <p className="spaceleft">
+                    <div className="innerDivBorder">
+                        <p className="spaceleft topsp">
                             Hajar Amara,{this.calcualteAge()} years old, from Zalafe Village.
-                            I like to help others and be realted to volunteering groups.
-                            As an aspiring professional in the realm of data and technology,
-                            I am Motivated junior software automation engineer, Passionate about Software development,
-                            looking for my next challenge in the high-tech industry.
                         </p>
-                    </p>
-                    <p className='spaceleft topsp innerDivBorder'>
-                        Self-learning, teamwork, time management, strong problem-solving abilities, and high communication skills.
-                    </p>
-                    < p className='spaceleft topsp innerDivBorder'>
-                        Deep knowledge with: Java, SQL, Python, HTML/CSS, Selenium.
-                    </p>
+                        <p className="spaceleft topsp">
+                            Dedicated Software Developer with expertise in Java, SQL, Python, and web technologies.
+                        </p>
+                        <p className="spaceleft topsp">
+                            Seeking a challenging role to contribute to innovative projects.
+                            Strong problem-solving, communication, and teamwork skills.
+                        </p>
+                        <p className="spaceleft topsp">
+                            Passionate about community involvement and enjoy volunteering.
+                            In my free time, I find solace in capturing nature's beauty.
+                        </p>
+                    </div>
                 </div>
             </div >
 

@@ -1,11 +1,11 @@
 import React from "react";
-import Left from './LeftSideBar';
+import AllProfile from "./allProfile";
 
 
 function App() {
   return (
     <div >
-      <Left />
+      <AllProfile />
     </div>
   );
 }

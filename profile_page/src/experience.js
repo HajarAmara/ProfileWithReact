@@ -6,22 +6,26 @@ function Experience() {
         <div>
             <h3 className="btnsp title-txt-sp">Experience</h3>
             <div className='topsp borderDiv'>
-                <div className="btnsp innerDivBorder">
+                <p className="innerDivBorder">
+                    <p className="spaceleft topsp">
+                        2021 – Present : Arabic OCR Website for Visually Impaired Users (in Development) – Personal Project
+                        Developing a comprehensive website that converts Arabic text from images or image files   using OCR technology to assist visually impaired individuals.
+                        Technologies: Python, Django, HTML, CSS, Bootstrap, JavaScript
 
-                    <p className="btnsp ptitle">Projects and Training (self- learning and working): </p>
-                    <p className="spaceleft">
-                        A profile page created with React JS, HTML, CSS, and npm provides a dynamic interface for users to display personal details and engage with a platform.
-                        Utilizing React's components, HTML/CSS for layout and styling, and npm for managing dependencies.
                     </p>
-                    <p className="ptitle">2020 – 2021: Automation Engineer, Galil Software Ltd. </p>
-                    <p className=''>
-                        My role was to create automated tests to validate data accuracy, functionality, and UI behavior.
-                        Utilizing Python with Selenium, I created tests to check UI behavior and built
-                        an algorithm that reads data from Excel files. Additionally, Python and Pytest created tests that validated desktop
-                        application elements with JSON files. Furthermore, using Java with Selenium and MongoDB,
-                        we created tests to validate the accuracy of the displayed data on the website with the saved data in MongoDB.
+                    <p className="spaceleft topsp">
+                        2024: Java & Backend Spring-Boot Course (MindoLife, 100 hours) – Intensive training in Java fundamentals and Spring Boot framework.
+                        Built a Java Spring Boot banking backend with account management, transactions, and user authentication. The project Utilized Spring Data JPA and Spring Security for data and security.
+                        Technologies: Java, Spring Boot, MySQL, Spring Data JPA, Spring Security
                     </p>
-                </div>
+                    <p className="spaceleft topsp">
+                        2020 – 2021: Automation Engineer, Galil Software Ltd:
+                        •	Developed automated tests for data accuracy, functionality, and UI performance.
+                        •	Utilized Python, Selenium, and Pytest for testing and data extraction.
+                        •	Employed Java, Selenium, and MongoDB to verify data consistency between the website and MongoDB.
+
+                    </p>
+                </p>
             </div>
         </div>
     );

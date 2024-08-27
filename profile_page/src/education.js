@@ -6,15 +6,16 @@ function Education() {
         <div>
             <h3 className="btnsp title-txt-sp">Education</h3>
             <div className='topsp borderDiv'>
-                <p className="btnsp innerDivBorder">
-                    <p className="btnsp ptitle"> Information Systems at University of Haifa:</p>
-                    Courses:
-                    <p className="spaceleft"> Introduction to computer science(C), OOP(JAVA),
-                        software engineering Basics of client-side programming.
+                <p className="innerDivBorder">
+
+                    <p className="spaceleft topsp">2019: B.Sc. in Information Systems Management at the University of Haifa</p>
+
+                    <p className="spaceleft topsp"> Courses:
+                        Introduction to Computer Science (C), OOP(JAVA), Software Engineering Basics of Client-Side Programming, Databases (SQL), Data Structures and Algorithms.
                     </p>
-                    Projects:
-                    <p className="spaceleft">
-                        Graduation Project: developed a home food sales website. technologies that used java, HTML5, CSS, bootstrap4, MySQL, tomcat. link for the project: <a className="linkProj" href="https://github.com/HajarAmara/zakifood.github.io" >github link</a>
+                    <p className="spaceleft topsp">
+                        Projects:
+                        Final Project: Designed and implemented a website for the sale of home-cooked food. My role was to develop the server-side with Java and JSP, as well as the front-end with HTML5,     CSS, and Bootstrap. For the database, I utilized MySQL.  link
                     </p>
                 </p>
             </div>
